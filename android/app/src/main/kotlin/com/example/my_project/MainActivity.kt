@@ -1,4 +1,4 @@
-package GhidaqFlowers.app
+package com.mycompany.rosesandroses
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -54,17 +54,6 @@ abstract class FlutterFlowTheme {
   late Color error;
   late Color info;
 
-  late Color primaryBtnText;
-  late Color lineColor;
-  late Color noColor;
-  late Color background;
-  late Color backgroundComponents;
-  late Color platinum;
-  late Color champagnePink;
-  late Color pink;
-  late Color cherryBlossomPink;
-  late Color mountbattenPink;
-
   @Deprecated('Use displaySmallFamily instead')
   String get title1Family => displaySmallFamily;
   @Deprecated('Use displaySmall instead')
@@ -152,17 +141,6 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color warning = const Color(0xFFF9CF58);
   late Color error = const Color(0xFFFF5963);
   late Color info = const Color(0xFFFFFFFF);
-
-  late Color primaryBtnText = const Color(0xFFFFFFFF);
-  late Color lineColor = const Color(0xFFE0E3E7);
-  late Color noColor = const Color(0x00FFFFFF);
-  late Color background = const Color(0xFF1A1F24);
-  late Color backgroundComponents = const Color(0xFF1D2428);
-  late Color platinum = const Color(0xFFD8E2DC);
-  late Color champagnePink = const Color(0xFFFFE5D9);
-  late Color pink = const Color(0xFFFFCAD4);
-  late Color cherryBlossomPink = const Color(0xFFF4ACB7);
-  late Color mountbattenPink = const Color(0xFF9D8189);
 }
 
 abstract class Typography {
@@ -334,17 +312,6 @@ class DarkModeTheme extends FlutterFlowTheme {
   late Color warning = const Color(0xFFF9CF58);
   late Color error = const Color(0xFFFF5963);
   late Color info = const Color(0xFFFFFFFF);
-
-  late Color primaryBtnText = const Color(0xFFFFFFFF);
-  late Color lineColor = const Color(0xFF22282F);
-  late Color noColor = const Color(0x000F1113);
-  late Color background = const Color(0xFF1A1F24);
-  late Color backgroundComponents = const Color(0xFF1D2428);
-  late Color platinum = const Color(0xFFD8E2DC);
-  late Color champagnePink = const Color(0xFFFFE5D9);
-  late Color pink = const Color(0xFFFFCAD4);
-  late Color cherryBlossomPink = const Color(0xFFF4ACB7);
-  late Color mountbattenPink = const Color(0xFF9D8189);
 }
 
 extension TextStyleHelper on TextStyle {
